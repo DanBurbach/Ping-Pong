@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>Ping-Pong</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Ping-Pong</h1>
+      </div>
+    <form>
+        <h3>
+          <ul>
+            <li> Numbers divisible by 3 are replaced with "ping" </li>
+            <li> Numbers divisible by 5 are replaced with "pong" </li>
+            <li> Numbers divisible by 15 are replaced with "pingpong" </li>
+        </h3>
+        <div class="form-group">
+          <label for="userinput"></label>
+          <input id="userinput" type="text" name="" value="">
+        </div>
+      <button type="submit" name="button"> Ping-Pong! </button>
+    </form>
+      <input type="button" value="Refresh Page" onClick="window.location.reload()" name="refresh">
+      <div class="result">
+        <h3>Pig-latin translation: <span id="translation"></span></h3>
+      </div>
+    </div>
+  </body>
+</html>
