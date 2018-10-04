@@ -1,33 +1,21 @@
-Behavior Driven Development:
+Behavior Driven Development for Ping-Pong:
 
-:pizza: take the users input and display it as a string.
+- Take the users input and display it as a string.
 
---input: hello my name is quinn. --output: hello my name is quinn.
+    --input: 12 --output: 1,2,3,4,5,6,...,11,12
 
-:pizza: take the users input and slice it into strings containing each word.
+- Take the users input and recognize it as a true number, otherwise alert user.
 
---input: hello my name is quinn. --output: "hello" "my" "name" "is" "quinn."
+    --input: hello my name is Dan. --output: Alert: "Please enter in an actual number"
 
-:pizza: if a string begins with a vowel add a "way" at the end
+- If the string is divisible by 3, return "ping"
 
---input: orange --output: orangeway
+    --input: 9 --output: "ping"
 
-:pizza: if a string begins with a consonant, move all the first consecutive consonants to the end
+- If the string is divisible by 5, return "pong"
 
---input: wikipedia --output: ikipediaw
+    --input: 95 --output: "pong"
 
-:pizza: add an "ay" to the previous behavior
+- If the number is divisible by 15, return "ping-pong"
 
---input: wikipedia --output: ikipediaway
-
-:pizza: If the first consonants include "qu", move the "u" along with the "q"
-
---input: quality --output: alityqu
-
-:pizza: add ay to the previous behavior
-
---input: quality --output: alityquay
-
-:pizza: For words beginning with "y", treat "y" as a consonant.
-
---input: yellow --output: elloyay
+    --input: 60 --output: "ping-pong"
