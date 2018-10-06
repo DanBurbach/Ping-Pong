@@ -19,3 +19,11 @@ Behavior Driven Development for Ping-Pong:
 - If the number is divisible by 15, return "ping-pong"
 
     --input: 60 --output: "ping-pong"
+
+- If the number isn't any of the previous 3 points, return as normal
+
+    --input: 2  --output: 1,2
+
+- Returned a compiled string of the previous 4 points
+
+    --input: 12  --output: 1 ,2 ,"ping" ,4 ,"pong" ,"ping" ,7 ,8 ,"ping" ,"pong" ,11 , "ping"
