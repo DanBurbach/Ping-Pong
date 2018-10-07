@@ -13,25 +13,39 @@
       <div class="jumbotron">
         <h1>Ping-Pong</h1>
       </div>
-    <form id="ping-pong">
-      <p><input type="button" value="Refresh Page" onclick="window.location.reload()" name="refresh" style="float: right;"></p>
-        <h4>
-          <p><strong>Rules of Ping-Pong:</strong></p>
-          <p>Ping-Pong will count up to your number from 1 with the following exceptions:</p>
-          <ul>
-            <li> Numbers divisible by 3 are replaced with "ping" </li>
-            <li> Numbers divisible by 5 are replaced with "pong" </li>
-            <li> Numbers divisible by 15 are replaced with "pingpong" </li>
-        </h4>
-          <div class="row">
+    <div class="row">
+      <div class="col-md-8">
+        <form id="ping-pong">
+          <p><input type="button" value="Refresh Page" onclick="window.location.reload()" name="refresh" style="float: right;"></p>
+          <h4>
+            <p><strong>Rules of Ping-Pong:</strong></p>
+            <p>Ping-Pong will count up to your number from 1 with the following exceptions:</p>
+            <ul>
+              <li> Numbers divisible by 3 are replaced with "ping" </li>
+              <li> Numbers divisible by 5 are replaced with "pong" </li>
+              <li> Numbers divisible by 15 are replaced with "pingpong" </li>
+            </ul>
+          </h4>
             <p><h3>Enter Your Number Here:</h3></p>
             <ul id="uList">
             </ul>
-          </div>
           <div class="form-group" id="inputForm">
             <input id="userInput" type="text" class="form-control">
           </div>
         <button class="submitButton">Ping Pong</button>
+      </div>
+        <div class="col-sm-4" align="right">
+          <div id="sidebar">
+            <h3>About Ping Pong</h3>
+            <h4>Created by:</h4>
+            <p>Daniel Burbach</p>
+            <h4>GitHub Username/URL:</h4>
+            <a href="https://github.com/DanBurbach/Ping-Pong">Daniel Burbach</a>
+            <h4>Week 10 Independent Project:</h4>
+            <p>Arrays &amp; Looping</p>
+          </div>
+        </div>
+
       </form>
     </div>
   </body>
