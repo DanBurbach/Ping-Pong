@@ -1,16 +1,38 @@
-# Vacation Quiz
-## Week 8: Weekend project to create a JS and jQuery focused quiz.
+# Ping-Pong
+## Week 10: Independent weekened project
 
-A webpage using input from the user and radio buttons to provide recommended vacation sites, v 1.0 (August 2018)
+Created a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with certian  exceptions, v 1.0 (October 2018)
+
 By Daniel Burbach
-Created in Epicodus for personal and public use
-Main purpose is to show JS, jQuery, HTML and CSS creativity, use, consistancy of content and code, and potential of creator.
 
-### Setup/Installation Requirements
-A stable internet connection
-Understanding of HTML, CSS, JS, and jQuery
-(Optional) GitHub account
-(Optional) Atom Program
+Created in Epicodus for personal and public use
+Main purpose is to show the possibilities of looping and arrays using JS, HTML, and Behavior Driven Development.
+
+### Setup/Installation Requirements:
+1. Load up page either via GitHub, Download, or weblink
+2. Be sure that the number you enter is a numerical number. Ex: "135" and not "One-hundred thirty-five"
+3. After entering number into field press the "Ping Pong" button for results
+4. Number entered will be broken into a full string and each number identified with the following exceptions:
+    
+    - Numbers divisible by 3 are replaced with "ping"
+    - Numbers divisible by 5 are replaced with "pong"
+    - Numbers divisible by 15 are replaced with "pingpong"
+#### Example: 
+- 1
+- 2
+- ping
+- 4
+- pong
+- ping
+- 7
+- 8
+- ping
+- pong
+- 11
+- ping
+- 13
+- 14
+- pingpong
 
 ### Behavior Driven Development for Ping-Pong:
 
@@ -47,16 +69,13 @@ Understanding of HTML, CSS, JS, and jQuery
     --input: "push button"  --output: refreshes page and empties results
 
 ### Known Bugs
-Currently no known bugs. Most images are in a pic file and referenced from there. There are several pictures that are from a free content website and as such there is a chance that content might not appear due to content being moved.
+Currently no known bugs however while the field can have a number of over 10 numerals, this will most likely cause your computer to slow down and it may not return an answer since there is an overflow limiter on most internet OS.
 
 ### Support and contact details
 Questions or comments, please contact Daniel Burbach at dburbach1982@gmail.com Advice on code layout or use? I am open to ideas and suggestions!
 
 ### Technologies Used
-Used HTML, CSS, jQuery (v 3.3.1)  and Bootstrap to create content.
-
-### Text Used
-Most content text used is from Lonely Planet.com and/or Wikipedia for consistancy of results and for the closest-to-real websites.
+Used HTML, CSS, jQuery (v 3.3.1), BDD (Behavior Driven Development),  and Bootstrap to create content.
 
 ### Images Used
 All images used are from freeimages.com, pexels.com, unsplash.com, and/or from google search image results.
